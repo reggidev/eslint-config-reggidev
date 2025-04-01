@@ -17,6 +17,7 @@ export default [
         tabWidth: 2,
         ignoreUrls: true,
         ignoreComments: false,
+        ignorePattern: "^\\s*className=\\s*['\"]"
       }],
       '@stylistic/space-before-function-paren': ['error',
         {
